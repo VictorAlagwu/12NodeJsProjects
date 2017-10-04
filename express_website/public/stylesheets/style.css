@@ -1,0 +1,19 @@
+.jumbotron-fluid{
+	padding: 70px;
+}
+.btn-custom{
+		background-color: rgba(0, 0, 0, 0.54);
+    	border-color: rgba(0, 0, 0, 0);
+
+	}
+	.btn-custom:hover{
+		background-color: rgba(119, 114, 114, 0.59);
+    	border-color: rgba(0, 0, 0, 0);
+    	text-decoration: none;
+
+	}
+	.btn-custom:focus{
+		background-color: rgba(119, 114, 114, 0.59);
+    	border-color: rgba(0, 0, 0, 0);
+    	text-decoration: none;
+	}

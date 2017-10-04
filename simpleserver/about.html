@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>About - NodeJs</title>
+	<!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+	<link rel="icon" type="image/png" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<style >
+body{
+	
+	color: rgb(68, 69, 70);
+}
+.text-header{
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: lighter; 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+	footer{
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    color:black;
+    }
+</style>
+<body">
+	<nav class="navbar navbar-light bd-faded">
+	    <button type="button" class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>   
+	    </button>
+	    <a class="navbar-brand" href="index.html">NodeJs</a>
+	        <div class="collapse navbar-collapse" id="navbarNav">
+	             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+	                <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+	                <li class="nav-item "><a class="nav-link" href="services.html">Services</a></li>
+	               
+	    		</ul>
+			</div>		
+	</nav><!--/nav-->
+
+<h4>About Page</h4>
+
+
+	<footer id="footer" class="footer text-center"><span class="">&copy; Copyright <span id='fullyear'></span>
+		<script>
+			var thisYear = new Date();	
+	 			document.getElementById('fullyear').innerHTML = thisYear.getFullYear();
+		</script> 
+	<i>It's Victor Again</i></span></footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/umd/popper.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

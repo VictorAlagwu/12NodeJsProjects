@@ -1,0 +1,127 @@
+   html, body {
+                height: 100%;
+            }
+            body {         
+                background-color: rgba(81, 192, 209, 0.15);
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 50%;
+                       
+            }
+            
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+           /* .content {
+                text-align: center;
+                display: inline-block;
+            }*/
+
+            .title {
+              font-family:"Agency FB";
+                font-size: 40px;
+            }
+            .desc{
+              font-family: "Agency FB";
+              font-size:20px;
+            }
+    /* Colors Mode */
+
+body.color-1 {
+  background-color: rgba(248, 194, 17, 0.15);
+}
+
+.value:nth-child(1) {
+  color: #f8c211;
+}
+
+body.color-2 {
+  background-color: rgba(81, 192, 209, 0.15);
+}
+
+.value:nth-child(2) {
+  color: #51c0d1;
+}
+
+body.color-3 {
+  background-color: rgba(133, 193, 59, 0.15);
+}
+
+ .value:nth-child(3) {
+  color: #85c13b;
+}
+
+body.color-4 {
+  background-color: rgba(242, 150, 31, 0.15);
+}
+
+ .value:nth-child(4) {
+  color: #f2961f;
+}
+
+body.color-5 {
+  background-color: rgba(147, 40, 128, 0.15);
+}
+
+ .value:nth-child(5) {
+  color: #932880;
+}
+
+body.color-6 {
+  background-color: rgba(2, 165, 172, 0.15);
+}
+
+ .value:nth-child(6) {
+  color: #02a5ac;
+}
+
+body.color-7 {
+  background-color: rgba(216, 24, 43, 0.15);
+}
+
+ .value:nth-child(7) {
+  color: #d8182b;
+}
+
+body.color-8 {
+  background-color: rgba(249, 197, 23, 0.15);
+}
+
+ .value:nth-child(8) {
+  color: #f9c517;
+}
+
+body.color-9 {
+  background-color: rgba(76, 186, 209, 0.15);
+}
+
+ .value:nth-child(9) {
+  color: #4cbad1;
+}
+
+body.color-10 {
+  background-color: rgba(230, 84, 38, 0.15);
+}
+
+ .value:nth-child(10) {
+  color: #e65426;
+}
+body.color-11 {
+  background-color: rgba(230, 84, 38, 0.15);
+}
+
+ .value:nth-child(11) {
+  color: #e65426;
+}
+body.color-12 {
+  background-color: rgba(230, 84, 38, 0.15);
+}
+
+ .value:nth-child(12) {
+  color: #e65426;
+}
